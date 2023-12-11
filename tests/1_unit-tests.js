@@ -3,7 +3,7 @@ const assert = chai.assert;
 const ConvertHandler = require('../controllers/convertHandler.js');
 const convertHandler = new ConvertHandler();
 
-describe('Unit Tests', function () {
+describe('Unit Tests', function () {    
     it('should correctly read a whole number input', function () {
         assert.strictEqual(convertHandler.getNum('2kg'), 2, 'Correctly read valid whole number input');
     });
