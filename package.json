@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nodemon server.js",
+    "start": "nodemon server.js",
     "dev": ""
   },
   "author": "",
